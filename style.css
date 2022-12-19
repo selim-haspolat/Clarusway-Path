@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://media.istockphoto.com/id/873945208/vector/young-programmer-coding-a-new-project.jpg?s=612x612&w=0&k=20&c=C5ezZf1sKGBwvyZhZ6SUbBskzTpKqbdpEaBS1qNvKDk=);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+header h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Carter One', cursive;
+    color: white;
+}
+
+.card{
+    overflow: auto;
+    width: 1350.29px;
+    height:auto;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+    background-color:rgba(255, 255, 255, 0.1);
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.imgs{
+    float: left;
+    width: 340px;
+    margin: 5px;
+    cursor: pointer;
+}
+.imgs:hover{
+    width: 400px;
+}
+.card h3{
+    font-size: 32px;
+    color: red;
+}
+.card p{
+    text-indent: 15px;
+    color: white;
+}
+.card button{
+    border: none;
+    float: right;
+    background-color: #FF7F50;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    margin: 10px;
+    cursor: pointer;
+}
+.card button a{
+    text-decoration: none;
+    color: white;
+}
+.card button:hover{
+    height: 45px;
+    width: 120px;
+}
