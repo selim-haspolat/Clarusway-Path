@@ -21,7 +21,7 @@ header h1{
 
 .card{
     overflow: auto;
-    width: 1350.29px;
+    max-width: 1350.29px;
     height:auto;
     padding: 10px;
     margin: 10px auto;
